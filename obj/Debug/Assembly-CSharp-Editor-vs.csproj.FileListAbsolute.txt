@@ -1,0 +1,1 @@
+D:\Projects\Unity5\VRGame\obj\Debug\Assembly-CSharp-Editor-vs.csprojResolveAssemblyReference.cache

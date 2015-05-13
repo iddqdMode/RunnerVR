@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6BFAFB8A-3918-7196-83B1-50FA44E9064E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\Editor\EndlessMenu.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\Editor\TerrainEditor.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\Game\GUIManagerInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\Game\StaticDataInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\AppearanceProbabilityInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\AppearanceRulesInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\CollidableAppearanceRulesInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\DistanceValueListInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\InfiniteObjectGeneratorInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\InfiniteObjectPersistenceEditor.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\PlatformAppearanceRulesInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\PlatformPlacementRuleInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\PowerUpAppearanceRulesInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\SceneAppearanceRulesInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteGenerator\SectionSelectionInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteObjects\CoinObjectInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteObjects\CollidableObjectInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteObjects\InfiniteObjectInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteObjects\MovingObstacleObjectInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteObjects\ObstacleObjectInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteObjects\PlatformObjectInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteObjects\PowerUpObjectInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\InfiniteObjects\SceneObjectInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\Player\CharacterCreationWizard.cs" />
+     <Compile Include="Assets\Infinite Runner\Editor\Player\PlayerControllerInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\BMFontReader.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\ComponentSelector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\NGUIJson.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\NGUIMenu.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\NGUISettings.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\SpriteSelector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UICameraTool.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIFilledSpriteInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIFontInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIFontMaker.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UILabelInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIPanelTool.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIScrollBarInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UISlicedSpriteInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UISliderInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UITextureInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UITexturePacker.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UITiledSpriteInspector.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Bump_Specular_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Cutout_Specular_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Particles_Multiply_Double.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Blend_Vertex_Alpha_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Blend_Detail.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Cutout_Reflective.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Bump.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_2Tex_Specular.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Transparent_Blend_Decal_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Reflective_Specular_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Cutout_Reflective.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Particles_AlphaBlended_Premultiply_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_ShadowPass_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Particles_Addative_Soft.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Particles_Addative_Multiply_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Projector_Light_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Blend_Detail_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Flare_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Cutout_Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\Unlit_Terra_3Tex.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Cutout_Reflective_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Blend_Detail.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_3Tex.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Transparent_Specular.shader" />
+     <None Include="Assets\Infinite Runner\Shaders\Diffuse Curve Specular.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Transparent_Blend_Detail_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Blend_Detail_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Particles_Multiply_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Projector_Muliply.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Bump_Reflective.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Transparent_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Particles_Addative_Soft_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Particles_Addative.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Diffuse_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_2Tex_Bump_Specular.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Blend_Decal.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Transparent_Blend_Vertex_Alpha_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Blend_Detail_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Cutout_SoftEdge_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Transparent_Blend_Detail_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Baked\Specular.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Transparent.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Blend_Vertex_Alpha_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Bump_Reflective_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Transparent_Specular_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\Unlit_Terra_2Tex.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Transparent.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Transparent_Blend_Detail_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Specular_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_ShadowPass_Cutout.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_2Tex_Bump.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Transparent_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Baked\Diffuse.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\Unlit_Terra_4Tex.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Blend_Decal_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_2Tex_Bump_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Specular.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Particles_AlphaBlended_Premultiply.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Transparent_Specular_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_Functions.cginc" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+     <None Include="Assets\Infinite Runner\Shaders\Diffuse Curve Alpha Blend.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Transparent_Reflective_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Bump_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Cutout_Diffuse_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Particles_AlphaBlended.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_2Tex_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_Fragment.cginc" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Diffuse_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Reflective.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Blend_Decal.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Reflective.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Resources\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_Defines.cginc" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Blend_Vertex_Alpha_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Transparent_Blend_Vertex_Alpha_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_2Tex_Specular_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_Base.cginc" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_Struct.cginc" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Transparent_Blend_Vertex_Alpha_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Bump_Specular.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Reflective_Specular.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Reflective_Global.shader" />
+     <None Include="Assets\Infinite Runner\Shaders\Diffuse Curve Additive.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Transparent_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Specular_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Anim_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_4Tex.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Cutout_Reflective_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_3Tex_Specular.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Blend_Detail_Anim_Global.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Flare.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Particles_Addative_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\Unlit_Terra_3Tex_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Projector_Muliply_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Blend_Decal_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Particles_AlphaBlended_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\ReadMe - 2.7.0.txt" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Infinite Runner\Shaders\Diffuse Curve.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Particles_Multiply.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_ShadowPass_Cutout_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Diffuse_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Blend_Decal_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Transparent_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Cutout_SoftEdge.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\Unlit_Terra_2Tex_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Blend_Vertex_Alpha.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Transparent_Blend_Decal_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Blend_Detail_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Transparent_Reflective_Global.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Particles_Multiply_Double_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Projector_Light.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_4Tex_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_3Tex_Specular_Global.shader" />
+     <None Include="Assets\Infinite Runner\Shaders\Transparent Cutout.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Blend_Vertex_Alpha_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Particles_Addative_Multiply.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Transparent_Reflective.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_2Tex_Bump_Specular_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_3Tex_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld.cginc" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Cutout.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Specular_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Transparent_Blend_Decal_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\Unlit_Terra_4Tex_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Transparent_Reflective.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\Unlit_Blend_Decal_Anim.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_Variables.cginc" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Cutout_Global.shader" />
+     <None Include="Assets\Endless2DTerrain\Demos\Resources\Shaders\VertexColorUnlit.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Transparent_Blend_Decal_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Blend_Vertex_Alpha_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Cutout_Specular.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Baked\Diffuse_Emissive.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Transparent_Blend_Vertex_Alpha_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Terrain\ODL_Terra_Diffuse_2Tex.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Blend_Vertex_Alpha.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_ShadowPass.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Blend_Vertex_Alpha_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Transparent_Blend_Detail_Anim.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Transparent_Specular_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Resources\Camera-DepthTexture.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Transparent_Anim_Anim.shader" />
+     <None Include="Assets\Infinite Runner\Third Party\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\ODL_Reflective_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Blend_Decal_Anim.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Blend_Decal_Anim_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_Shadow.cginc" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Global\Unlit_Blend_Detail_Global.shader" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\cginc\CurvedWorld_Vertex.cginc" />
+     <None Include="Assets\VacuumShaders\Curved World\Shaders\Default\ODL_Transparent_Anim.shader" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>D:/Projects/Unity5/VRGame/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="VacuumShaders.CurvedWorldVC">
+ <HintPath>D:/Projects/Unity5/VRGame/Assets/VacuumShaders/Curved World/Editor/VacuumShaders.CurvedWorldVC.dll</HintPath>
+ </Reference>
+ <Reference Include="VacuumShaders.CurvedWorld_Editor">
+ <HintPath>D:/Projects/Unity5/VRGame/Assets/VacuumShaders/Curved World/Editor/VacuumShaders.CurvedWorld_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="VacuumShaders.CurvedWorld">
+ <HintPath>D:/Projects/Unity5/VRGame/Assets/VacuumShaders/Curved World/Scripts/VacuumShaders.CurvedWorld.dll</HintPath>
+ </Reference>
+ <Reference Include="VacuumShaders">
+ <HintPath>D:/Projects/Unity5/VRGame/Assets/VacuumShaders/Editor/VacuumShaders.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/blackberryplayer/UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{8BD8A425-6CF6-6F6F-17BD-E4CE3C151F08}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

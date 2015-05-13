@@ -1,0 +1,14 @@
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+D:\Repos\VRGame\obj\Debug\UnityVS.VRGame.CSharp.csprojResolveAssemblyReference.cache
+D:\Repos\VRGame\obj\Debug\Assembly-CSharp.dll
+D:\Repos\VRGame\obj\Debug\Assembly-CSharp.pdb
+D:\Repos\VRGame\Temp\UnityVS_bin\Debug\VacuumShaders.CurvedWorld.dll
